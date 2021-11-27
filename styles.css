@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* Header */
+
+/* Navbar */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  text-transform: uppercase;
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+  height: 75px;
+  width: 95%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+/* NAVBAR */
+
+/* MAIN */
+.main-photo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 250px;
+}
+/* MAIN */
+
+/* facilities */
+
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.row {
+  margin: top 5px;
+  display: flex;
+}
+
+.facilities-col {
+  flex-basis: 31%;
+  border-left: 0.1rem solid #5c5c5c;
+  border-right: 0.1rem solid #5c5c5c;
+  border-width: thin;
+}
+
+.facilities-col img {
+  width: 100%;
+}
+
+.facilities-col p {
+  padding: 0;
+}
+
+.facilities-col h3 {
+  margin-top: 16px;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  padding: 30px 10px 5px 10px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: gray;
+  margin: 10px 20px 60px 20px;
+}
+
+h6 {
+  color: grey;
+  border: 1px solid rgb(105, 105, 105);
+  margin-left: 70px;
+  margin-right: 70px;
+  padding: 10px;
+  border-bottom: none;
+  border-radius: 7px;
+}
+
+/* FACILITIES */
+
+/* Footer */
+
+h2 {
+  color: rgb(211, 211, 211);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+h5 {
+  color: grey;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+}
+
+footer {
+  border-top: 6px solid #5282e5;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom {
+  background: #707070;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom a {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.first-box {
+  margin-left: 20px;
+}
+.last-box {
+  margin-right: 20px;
+}
